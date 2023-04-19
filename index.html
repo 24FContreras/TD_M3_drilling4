@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Módulo 3, Drilling N°4: Newsletter</title>
+    <!-- CSS STYLES -->
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <!-- FONT AWESOME KIT -->
+    <script
+      src="https://kit.fontawesome.com/1872a23027.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <main>
+      <h1>Suscríbete a nuestro newsletter</h1>
+      <p>
+        Al suscribirte podrás recibir notificaciones de ofertas y descuentos en
+        todos nuestros productos. Para recibir estos avisos debes aceptar
+        nuestros términos y condiciones e ingresar tu dirección de correo.
+      </p>
+
+      <form id="formulario">
+        <input type="checkbox" name="terminos" id="terminos" />
+        <label for="terminos"
+          ><a href="#" target="_blank" rel="noopener noreferrer"
+            >Términos y condiciones</a
+          ></label
+        >
+
+        <div class="form-group">
+          <input
+            type="email"
+            name="correo"
+            id="correo"
+            placeholder="Ingresa tu e-mail"
+            pattern="^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$"
+          />
+          <button type="submit">OK</button>
+        </div>
+      </form>
+    </main>
+    <!-- SCRIPTS -->
+    <script src="assets/js/app.js"></script>
+  </body>
+</html>
